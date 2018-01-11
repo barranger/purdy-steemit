@@ -1,0 +1,96 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro");
+
+/**
+ * Article Page modifications
+ **/
+article.PostFull,
+div.PostFull__header,
+div.Post_comments__content,
+div.PostFull__body {
+  max-width: 1100px;
+}
+
+.PostFull__header > h1 {
+  font-family: "Roboto Condensed", Roboto, "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 48px;
+}
+
+.Markdown {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.25px;
+}
+
+.RightShare__Menu .PostFull__responses,
+.RightShare__Menu .PostFull__views,
+.RightShare__Menu .shareMenu,
+.RightShare__Menu .explore-post {
+  position: fixed;
+  left: calc(50% + 570px);
+  border-right: 0 !important;
+}
+
+.RightShare__Menu .PostFull__responses svg,
+.RightShare__Menu .PostFull__views svg {
+  width: 48px;
+  height: 48px;
+}
+
+.RightShare__Menu .shareMenu svg,
+.RightShare__Menu .explore-post svg {
+  width: 34px;
+  height: 34px;
+}
+
+.RightShare__Menu .PostFull__responses {
+  top: 140px;
+}
+.RightShare__Menu .PostFull__responses svg:hover {
+  fill: #1fbf8f;
+}
+
+.RightShare__Menu .PostFull__responses > a,
+.RightShare__Menu .PostFull__views > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.RightShare__Menu .PostFull__responses > a,
+.RightShare__Menu .PostFull__responses > a > span {
+  height: 64px !important;
+  width: 52px !important;
+}
+
+.RightShare__Menu .PostFull__views span {
+  height: 66px;
+  text-align: center;
+}
+
+.RightShare__Menu .PostFull__views > span > span {
+  width: 48px !important;
+}
+
+.RightShare__Menu .PostFull__views {
+  top: 208px;
+}
+
+.RightShare__Menu .explore-post {
+  top: 280px;
+  left: calc(50% + 594px);
+}
+
+.RightShare__Menu .shareMenu {
+  top: 288px;
+}
+
+.RightShare__Menu .shareMenu ul li {
+  float: none;
+}
