@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description":
     "A collection of tweeks and improvements for the fantastic site http://steemit.com",
-  "homepage_url": "http://extensionizr.com",
+  "homepage_url": "https://github.com/barranger/purdy-steemit",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
